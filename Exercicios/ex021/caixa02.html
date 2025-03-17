@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #5e5c64;
+            margin: 0px;
+        }
+
+        header {
+           background-color: #ffffff;
+           padding: 10px;
+           margin: 10px;
+        }
+
+        nav {
+            background-color: #241f31;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 2px #0000006e;
+        }
+
+        nav > a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #c0bfbc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: #77767b;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #5e5c64;
+        }
+
+        footer {
+            background-color: #241f31;
+            color:  	#ffffff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Linux Open-Source Sistemas Operácionais</p>
+        </section>
+        <section id="noticias">
+            <article id="boxone">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis, repudiandae accusamus saepe odit repellat nostrum unde voluptate fugit doloribus temporibus vel autem aliquid. Voluptas magnam rem perferendis eos nemo!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus voluptatum quo quisquam! Atque earum laudantium tenetur velit commodi perferendis, sunt fugit ab ipsa! Magni perferendis facilis, adipisci unde vel illum.</p>
+                    <aside>
+                <aside>
+                        <p>Artigo escrito por Tux</p>
+                    </aside>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+            <p>Desemvolvido pelo Advanced User</p>
+    </footer>
+</body>
+</html>
