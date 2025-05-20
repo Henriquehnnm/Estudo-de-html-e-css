@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7740974d-d74a-4667-83fb-43fc7ddeff47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex023/tabela001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercicios/ex023/tabela005.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios/ex023/tabela004.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/ex023/tabela004.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
       </set>
     </attachedChunks>
   </component>
@@ -57,6 +58,7 @@
       <updated>1744135110894</updated>
       <workItem from="1744135112831" duration="2312000" />
       <workItem from="1744138364870" duration="6000" />
+      <workItem from="1746189037423" duration="11000" />
     </task>
     <servers />
   </component>
