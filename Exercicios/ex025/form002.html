@@ -15,14 +15,19 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="code/cadastro.rs" method="get"></form>
+    <form action="code/cadastro.rs" method="post">
     <div>
         <label for="fusr">Usuário: </label>
-        <input type="text" name="usr" id="fusr">
+        <input type="text" name="usr" id="fusr" required minlength="3">
     </div>
     <div>
         <label for="fpass">Senha: </label>
-        <input type="password" name="pass" id="fpass">
+        <input type="password" name="pass" id="fpass" required minlength="8">
     </div>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+    </form>
 </body>
 </html>
