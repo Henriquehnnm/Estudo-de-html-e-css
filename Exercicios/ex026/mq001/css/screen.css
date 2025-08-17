@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Estilo para  tela */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Geist";
+}
+
+header {
+  background-color: rgb(139, 139, 139);
+  padding: 2em;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+menu ul {
+  background-color: gray;
+  background-color: rgb(107, 107, 107);
+  border-radius: 3px;
+}
+
+menu li {
+  background-color: darkgray;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+article {
+  width: 600px;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
