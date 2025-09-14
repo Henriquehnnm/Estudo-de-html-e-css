@@ -1,5 +1,129 @@
 @charset "UTF-8";
 
+/*
+Pequenas-telas: até 600px;
+celular: de 600px ate 768px;
+Tablet: de 768px ate 992px;
+Desktop: de 992px até 1200px;
+Grandes-telas: acima de 1200px;
+*/
+
 @media print {
-    
+  * {
+    font-family: "BlexMono Nerd Font";
+  }
+
+  main {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 0px;
+  }
+
+  main h1 {
+    text-shadow: none;
+    color: black;
+  }
+
+  main::after {
+    content: "Essa impressão foi feita através do site www.cursoemvideo.com";
+    text-decoration: overline;
+  }
+
+  img#phone {
+    display: none;
+  }
+
+  img#tablet {
+    display: none;
+  }
+
+  img#impressora {
+    display: block;
+  }
+
+  img#desktop {
+    display: none;
+  }
+
+  img#tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: url("../../assets/back-tablet.jpg");
+  }
+
+  img#phone {
+    display: none;
+  }
+
+  img#tablet {
+    display: block;
+  }
+
+  img#impressora {
+    display: none;
+  }
+
+  img#desktop {
+    display: none;
+  }
+
+  img#tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-image: url("../../assets/back-pc.jpg");
+  }
+
+  img#phone {
+    display: none;
+  }
+
+  img#tablet {
+    display: none;
+  }
+
+  img#impressora {
+    display: none;
+  }
+
+  img#desktop {
+    display: block;
+  }
+
+  img#tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("../../assets/back-tv.jpg");
+  }
+
+  img#phone {
+    display: none;
+  }
+
+  img#tablet {
+    display: none;
+  }
+
+  img#impressora {
+    display: none;
+  }
+
+  img#desktop {
+    display: none;
+  }
+
+  img#tv {
+    display: block;
+  }
 }
