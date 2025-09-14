@@ -9,8 +9,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
+    <link rel="stylesheet" href="style/query.css" />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <h1>The Linux Kernel Archives</h1>
       <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
@@ -59,6 +60,11 @@
         } else {
           itens.style.display = "block";
         }
+      }
+      function mudouTamanho() {
+        if (window.innerWidth >= 768) {
+          itens.style.display = "block";
+        } else itens.style.display = "none";
       }
     </script>
   </body>

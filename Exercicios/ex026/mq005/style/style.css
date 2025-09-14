@@ -24,7 +24,7 @@ span#burger {
   background-color: rgb(48, 48, 48);
   display: block;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   cursor: pointer;
 }
@@ -48,7 +48,7 @@ menu > ul > li {
   text-decoration: none;
   background-color: rgb(87, 87, 87);
   color: white;
-  text-align: center;
+  text-align: left;
   border-top: 2px solid gray;
 }
 
