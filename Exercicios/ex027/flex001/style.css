@@ -1,0 +1,11 @@
+.conteiner {
+  background-color: lightsalmon;
+  display: flex;
+}
+
+.item {
+  background-color: lightblue;
+  border: 1px solid #000;
+  flex: auto;
+  text-align: center;
+}
